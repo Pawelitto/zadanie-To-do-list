@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista to do</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="containermain">
+    <h1>Lista <i>to do</i></h1>
+    <div class="container">
+      <div class="nav">
+        <form >
+          <div class="input-group">
+            <label class="label">Treść zadania</label>
+            <input name="text" class="input" type="text">
+            <div></div></div>
+          <br>
+          <button type="submit" class="guzik">Dodaj zadanie</button>
+        </form>
+      </div>
+      
+      <div class="lista">
+        <div class="utworzone"> 
+          <h2>Utworzone</h2>
+          <div class="niezrobione">
+          </div>
+        </div>
+
+        <div class="wykonane">
+          <h2>Wykonane</h2>
+          <div class="zrobione">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
